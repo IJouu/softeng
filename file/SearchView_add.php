@@ -10,8 +10,6 @@
 ?>
 
 <div class="container">
-  <b>Add Ecology</b>
-  <hr/>
   <form method="post" action="../Control/Control.php?act=createEcology">
     <b>Organ:</b><input type="text" name="organismname" id="organismname" /><br/>
     <b>Label:</b><input type="text" name="label" id="label" /><br/>
